@@ -38,6 +38,14 @@ BCRYPT_PASSWORD = keep_coding
 SALT_ROUNDS = 10 
 TOKEN = udacity-token
 
+###  Test Database
+POSTGRES_PORT = 5432 
+POSTGRES_HOST = 127.0.0.1 
+POSTGRES_TEST_DB: storefrontbackendtest
+POSTGRES_USER: postgres
+POSTGRES_PASSWORD: postgres
+PGAdmin Passwrd: 1234567890
+
 -- Running the server:
 npm run start
 
