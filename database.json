@@ -1,0 +1,24 @@
+{
+  "development": {
+    "driver": "pg",
+    "host":"127.0.0.1",
+    "database":"storefrontbackend",
+    "user": "postgres",
+    "password":"postgres"
+  },
+  "test": {
+    "driver": "pg",
+    "host":"127.0.0.1",
+    "database":"storefrontbackendtest",
+    "user": "postgres",
+    "password":"postgres"
+  },
+  "production": {
+    "driver": "pg",
+    "host":"127.0.0.1",
+    "database":"storefrontbackend",
+    "user": "postgres",
+    "password":"postgres"
+  },
+  "sql-file" : true
+}
